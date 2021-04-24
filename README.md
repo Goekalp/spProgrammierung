@@ -1,0 +1,2 @@
+# spProgrammierung
+Scala Projekt
