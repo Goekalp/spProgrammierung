@@ -2,7 +2,7 @@ name := """spProgramming"""
 organization := "SpezielleProgrammierung"
 
 version := "1.0-SNAPSHOT"
-
+herokuAppName in Compile := "bauernmilch"
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
 scalaVersion := "2.13.5"
