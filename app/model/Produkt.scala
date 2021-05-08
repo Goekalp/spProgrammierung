@@ -1,5 +1,3 @@
 package model
 
-class Produkt {
-
-}
+case class Produkt(name: String, price: Int)
