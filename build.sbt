@@ -5,7 +5,7 @@ version := "1.0-SNAPSHOT"
 
 herokuAppName in Compile := "bauernmilch"
 
-herokuJdkVersion in Compile := "14"
+//herokuJdkVersion in Compile := "14"
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
 scalaVersion := "2.13.5"
